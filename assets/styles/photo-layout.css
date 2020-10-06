@@ -28,14 +28,10 @@
     width: calc(5 /5 * 100%);
 }
 
-.col + .col {
-    border-left: 1px solid black;
-}
-
 .grid + .grid {
     margin-top: 200px;
 }
 .images {
     width: 100%;
-    padding: 0 calc ( 85 / 575 *100%);
+    padding: 86px;
 }
