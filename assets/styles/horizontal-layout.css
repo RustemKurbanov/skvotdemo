@@ -6,7 +6,8 @@
 
 .gird { 
     display: flex;
-    min-height: 100vh;
+    flex-wrap: nowrap;
+    overflow: auto;
 }
 
 .col {
