@@ -23,7 +23,7 @@
 }
 
 .col + img + p {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .col + .col {
@@ -32,4 +32,5 @@
 
 .img {
     width: 100%;
+    margin-right: 5px;
 }
