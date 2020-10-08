@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.gird { 
+    display: flex;
+}
+
+.col {
+    width: 400px;
+    padding: 40px 10px;
+}
+
+.col + col {
+    border-left: 1px solid black;
+}
+
+.image {
+    width: 100%;
+}
+
