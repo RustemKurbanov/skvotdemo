@@ -22,10 +22,14 @@
     min-width: 400px;
 }
 
+.col + img + p {
+    margin-top: 20px;
+}
+
 .col + .col {
     border-left: 1px solid black;
 }
 
-.image {
+.img {
     width: 100%;
 }
