@@ -10,6 +10,10 @@
     font-family: Gilroy, Arial, Helvetica, sans-serif;
 }
 
+.h2 {
+    font-size: 100px;
+}
+
 .bg-grey {
     background-color: rgb(110, 110, 120);
 }
