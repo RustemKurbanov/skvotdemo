@@ -4,13 +4,21 @@
     box-sizing: border-box;
 }
 
+.body {
+    font-family: 'Gilroy';
+    font-size: 20px;
+}
 .grid {
     display: flex;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    overflow: auto;
 }
 
 .col {
     width: 400px;
     padding: 40px 10px;
+    min-width: 400px;
 }
 
 .col + .col {
