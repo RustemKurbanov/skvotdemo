@@ -5,7 +5,7 @@
 }
 
 .h1 + .h2 {
-    font-size: 50px;
+    font-size: 80px;
     text-transform: uppercase;
     font-family: Gilroy, Arial, Helvetica, sans-serif;
 }
