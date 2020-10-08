@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.h1 + .h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+
 .bg-grey {
     background-color: rgb(110, 110, 120);
 }
