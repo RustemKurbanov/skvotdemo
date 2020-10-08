@@ -4,18 +4,13 @@
     box-sizing: border-box;
 }
 
-.gird { 
+.grid {
     display: flex;
-    flex-wrap: nowrap;
-    overflow: auto;
 }
 
 .col {
     width: 400px;
     padding: 40px 10px;
-    min-width: 400px;
-    overflow: auto;
-
 }
 
 .col + .col {
@@ -24,8 +19,4 @@
 
 .image {
     width: 100%;
-    object-position: contain;
-    object-position: center;
-    margin: 20px 0;
 }
-
